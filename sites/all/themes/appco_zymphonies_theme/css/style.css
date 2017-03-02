@@ -1,14 +1,14 @@
-@import url(http://fonts.googleapis.com/css?family=PT+Sans);  
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
 
-/* --------------------------------------------- 
+/* ---------------------------------------------
 
 * Filename:     style.css
 * Version:      1.0.0 (2015-03-08)
 * Website:      http://www.zymphonies.com
-                http://www.freebiezz.com
+http://www.freebiezz.com
 * Description:  System Styles
 * Author:       Zymphonies Dev Team
-                info@zymphonies.com
+info@zymphonies.com
 
 -----------------------------------------------*/
 
@@ -21,8 +21,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   border:0;
@@ -32,7 +32,7 @@ time, mark, audio, video {
   padding:0;
   vertical-align:baseline;
 }
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display:block;
 }
@@ -285,7 +285,7 @@ aside header {
 }
 header.siteheader {
   font-size:26px;
-  padding:100px 0;
+  padding:50px 0;
   text-align:center;
 }
 h1#site-title {
@@ -614,8 +614,8 @@ input {
 textarea.form-textarea, select.form-select {
   padding:4px;
 }
-input.form-text, 
-textarea.form-textarea, 
+input.form-text,
+textarea.form-textarea,
 select.form-select {
   border:1px solid #ccc;
   border-radius:3px;
@@ -1145,7 +1145,7 @@ div.warning {
 #main-menu li li li:hover > ul {
   display:block;
 }
-#main-menu li.expanded, 
+#main-menu li.expanded,
 #main-menu li.collapsed,
 li.leaf {
   margin:0;
@@ -1189,10 +1189,10 @@ li.leaf {
 .orangecolor #main-menu li:hover >a {
   color:#ff7256;
 }
-.orangecolor button:hover, 
-body.orangecolor a.btn:hover, 
-.orangecolor input[type="submit"]:hover, 
-.orangecolor input[type="reset"]:hover, 
+.orangecolor button:hover,
+body.orangecolor a.btn:hover,
+.orangecolor input[type="submit"]:hover,
+.orangecolor input[type="reset"]:hover,
 .orangecolor input[type="button"]:hover {
   background-color:#ff7256;
 }
@@ -1217,10 +1217,10 @@ body.orangecolor a.btn:hover,
 .greencolor #main-menu li:hover >a {
   color:#22B322;
 }
-.greencolor button:hover, 
-body.greencolor a.btn:hover, 
-.greencolor input[type="submit"]:hover, 
-.greencolor input[type="reset"]:hover, 
+.greencolor button:hover,
+body.greencolor a.btn:hover,
+.greencolor input[type="submit"]:hover,
+.greencolor input[type="reset"]:hover,
 .greencolor input[type="button"]:hover {
   background-color:#22B322;
 }
@@ -1245,10 +1245,10 @@ body.greencolor a.btn:hover,
 .redcolor #main-menu li:hover >a {
   color:#F93A3A;
 }
-.redcolor button:hover, 
-body.redcolor a.btn:hover, 
-.redcolor input[type="submit"]:hover, 
-.redcolor input[type="reset"]:hover, 
+.redcolor button:hover,
+body.redcolor a.btn:hover,
+.redcolor input[type="submit"]:hover,
+.redcolor input[type="reset"]:hover,
 .redcolor input[type="button"]:hover {
   background-color:#F93A3A;
 }
