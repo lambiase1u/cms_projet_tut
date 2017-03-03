@@ -70,7 +70,8 @@ table {
   webkit-box-sizing:border-box;
 }
 body {
-  background:url(../images/body-bg.png);
+  /*background:url(../images/body-bg.png);*/
+  background-color: #f5f5f5;
   color:#666;
   font-family:'PT Sans', sans-serif;
   font-size:15px;

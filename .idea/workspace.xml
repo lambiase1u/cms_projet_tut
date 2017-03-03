@@ -58,11 +58,27 @@
         <entry file="file://$PROJECT_DIR$/sites/all/themes/appco_zymphonies_theme/templates/page.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="226">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <caret line="169" column="35" selection-start-line="169" selection-start-column="35" selection-end-line="169" selection-end-column="35" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
               <folding>
                 <element signature="e#6#2897#0#PHP" expanded="true" />
-                <element signature="e#9187#9193#0#HTML" expanded="true" />
+                <marker date="1488485136599" expanded="true" signature="4377:5983" ph="..." />
+                <marker date="1488485136599" expanded="true" signature="4417:5689" ph="..." />
+                <marker date="1488485136599" expanded="true" signature="4548:4622" ph="..." />
+                <marker date="1488485136599" expanded="true" signature="4704:5673" ph="..." />
+                <marker date="1488485136599" expanded="true" signature="4753:5655" ph="..." />
+                <marker date="1488485136599" expanded="true" signature="5829:5908" ph="..." />
+                <marker date="1488485136599" expanded="true" signature="6031:8202" ph="..." />
+                <marker date="1488485136599" expanded="true" signature="6066:6304" ph="..." />
+                <marker date="1488485136599" expanded="true" signature="6100:6174" ph="..." />
+                <marker date="1488485136599" expanded="true" signature="6209:6288" ph="..." />
+                <marker date="1488485136599" expanded="true" signature="6345:7840" ph="..." />
+                <marker date="1488485136599" expanded="true" signature="6470:7799" ph="..." />
+                <marker date="1488485136599" expanded="true" signature="6489:7779" ph="..." />
+                <marker date="1488485136599" expanded="true" signature="7870:8188" ph="..." />
+                <marker date="1488485136599" expanded="true" signature="7905:8025" ph="..." />
+                <marker date="1488485136599" expanded="true" signature="7950:7956" ph="©" />
+                <marker date="1488485136599" expanded="true" signature="8058:8172" ph="..." />
               </folding>
             </state>
           </provider>
@@ -218,12 +234,12 @@
       <option name="presentableId" value="Default" />
       <updated>1488480153114</updated>
       <workItem from="1488480154616" duration="474000" />
-      <workItem from="1488482311058" duration="1473000" />
+      <workItem from="1488482311058" duration="2117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1947000" />
+    <option name="totallyTimeSpent" value="2591000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
@@ -321,11 +337,27 @@
     <entry file="file://$PROJECT_DIR$/sites/all/themes/appco_zymphonies_theme/templates/page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <caret line="169" column="35" selection-start-line="169" selection-start-column="35" selection-end-line="169" selection-end-column="35" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
           <folding>
             <element signature="e#6#2897#0#PHP" expanded="true" />
-            <element signature="e#9187#9193#0#HTML" expanded="true" />
+            <marker date="1488485136599" expanded="true" signature="4377:5983" ph="..." />
+            <marker date="1488485136599" expanded="true" signature="4417:5689" ph="..." />
+            <marker date="1488485136599" expanded="true" signature="4548:4622" ph="..." />
+            <marker date="1488485136599" expanded="true" signature="4704:5673" ph="..." />
+            <marker date="1488485136599" expanded="true" signature="4753:5655" ph="..." />
+            <marker date="1488485136599" expanded="true" signature="5829:5908" ph="..." />
+            <marker date="1488485136599" expanded="true" signature="6031:8202" ph="..." />
+            <marker date="1488485136599" expanded="true" signature="6066:6304" ph="..." />
+            <marker date="1488485136599" expanded="true" signature="6100:6174" ph="..." />
+            <marker date="1488485136599" expanded="true" signature="6209:6288" ph="..." />
+            <marker date="1488485136599" expanded="true" signature="6345:7840" ph="..." />
+            <marker date="1488485136599" expanded="true" signature="6470:7799" ph="..." />
+            <marker date="1488485136599" expanded="true" signature="6489:7779" ph="..." />
+            <marker date="1488485136599" expanded="true" signature="7870:8188" ph="..." />
+            <marker date="1488485136599" expanded="true" signature="7905:8025" ph="..." />
+            <marker date="1488485136599" expanded="true" signature="7950:7956" ph="©" />
+            <marker date="1488485136599" expanded="true" signature="8058:8172" ph="..." />
           </folding>
         </state>
       </provider>
