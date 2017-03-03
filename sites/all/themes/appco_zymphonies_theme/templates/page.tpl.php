@@ -166,7 +166,7 @@
 
     </div>
     <?php } ?>
-    
+
 
     <!-- Second Sidebar -->
 
@@ -219,9 +219,9 @@
       <div class="copyright">
         <?php print t('Copyright'); ?> &copy; <?php echo date("Y"); ?>, <?php print $site_name; ?>
       </div>
-
+      
       <div class="credits">
-        <?php print t('Designed by'); ?>  <a href="http://www.zymphonies.com">Zymphonies</a>
+        <?php print t('Designed by'); ?>  <a href="http://iut-charlemagne.univ-lorraine.fr">IUT Charlemagne</a>
       </div>
 
     </div>

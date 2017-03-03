@@ -34,12 +34,12 @@ settings[color_scheme] = Default Color
 
 settings[breadcrumbs]  = 1
 settings[social_links]  = 1
-settings[twitter_url] = "https://twitter.com/zymphonies"
-settings[facebook_url] = "https://www.facebook.com/zymphonies"
-settings[gplus_profile_url] = "https://plus.google.com/u/1/+ZymphoniesTechnologies/"
-settings[linkedin_profile_url] = "https://www.linkedin.com/company/zymphonies"
-settings[pinterest_profile_url] = "http://www.pinterest.com/zymphonies/"
-settings[youtube_profile_url] = "http://www.youtube.com"
+settings[twitter_url] = "https://twitter.com/iutcharlemagne?lang=fr"
+settings[facebook_url] = "https://www.facebook.com/iutcharlemagne/?fref=ts"
+settings[gplus_profile_url] = "https://plus.google.com/u/0/107986014694888804129"
+settings[linkedin_profile_url] = "https://www.linkedin.com/in/iut-nancy-charlemagne-4b8a38113/"
+;settings[pinterest_profile_url] = "http://www.pinterest.com/zymphonies/"
+;settings[youtube_profile_url] = "http://www.youtube.com"
 ; Information added by Drupal.org packaging script on 2015-03-16
 version = "7.x-1.0"
 core = "7.x"
