@@ -134,7 +134,7 @@
       <?php endif; ?>
 
       <!-- End First Sidebar -->
-
+      <?php if (!drupal_is_front_page()) { ?>
       <div id="content">
 
         <section id="post-content" role="main">
@@ -142,90 +142,92 @@
           <?php print $messages; ?>
           <?php print render($title_prefix); ?>
           <?php if ($title): ?><h1 class="page-title"><?php print $title; ?></h1><?php endif; ?>
-            <?php if (theme_get_setting('breadcrumbs', 'appco_zymphonies_theme')): ?>
-              <div id="breadcrumbs"> <?php if ($breadcrumb): print $breadcrumb; endif;?> </div>
-              <?php endif; ?>
-
-              <?php print render($title_suffix); ?>
-
-              <?php if (!empty($tabs['#primary'])): ?>
-                <div class="tabs-wrapper"><?php print render($tabs); ?></div>
-              <?php endif; ?>
-
-              <?php print render($page['help']); ?>
-
-              <?php if ($action_links): ?>
-                <ul class="action-links"><?php print render($action_links); ?></ul>
-              <?php endif; ?>
-
-              <?php print render($page['content']); ?>
-
-            </section>
-
-          </div>
-
-        </div>
-
-        <!-- Second Sidebar -->
-
-        <?php if ($page['sidebar_second']): ?>
-          <aside id="sidebar-second" role="complementary">
-            <?php print render($page['sidebar_second']); ?>
-          </aside>
-        <?php endif; ?>
-
-        <!-- End Second Sidebar -->
-
-      </div>
-
-      <!-- Footer -->
-
-      <div id="footer">
-
-        <div class="contactwrap">
-
-          <div class="leftwrap">
-            <?php print render($page['contactform']); ?>
-          </div>
-
-          <div class="rightwrap">
-
-            <?php print render($page['contactaddress']); ?>
-
-          </div>
-
-        </div>
-
-        <div class="social-media-wrap">
-          <?php if (theme_get_setting('social_links', 'appco_zymphonies_theme')): ?>
-            <span class="social-icons">
-              <ul>
-                <li><a class="rss" href="<?php print $front_page; ?>rss.xml"><i class="fa fa-rss"></i></a></li>
-                <li><a class="fb" href="<?php echo theme_get_setting('facebook_profile_url', 'appco_zymphonies_theme'); ?>" target="_blank" rel="me"><i class="fa fa-facebook"></i></a></li>
-                <li><a class="twitter" href="<?php echo theme_get_setting('twitter_profile_url', 'appco_zymphonies_theme'); ?>" target="_blank" rel="me"><i class="fa fa-twitter"></i></a></li>
-                <li><a class="gplus" href="<?php echo theme_get_setting('gplus_profile_url', 'appco_zymphonies_theme'); ?>" target="_blank" rel="me"><i class="fa fa-google-plus"></i></a></li>
-                <li><a class="linkedin" href="<?php echo theme_get_setting('linkedin_profile_url', 'appco_zymphonies_theme'); ?>" target="_blank" rel="me"><i class="fa fa-linkedin"></i></a></li>
-                <li><a class="pinterest" href="<?php echo theme_get_setting('pinterest_profile_url', 'appco_zymphonies_theme'); ?>" target="_blank" rel="me"><i class="fa fa-pinterest"></i></a></li>
-                <li><a class="youtube" href="<?php echo theme_get_setting('youtube_profile_url', 'appco_zymphonies_theme'); ?>" target="_blank" rel="me"><i class="fa fa-youtube"></i></a></li>
-              </ul>
-            </span>
+          <?php if (theme_get_setting('breadcrumbs', 'appco_zymphonies_theme')): ?>
+            <div id="breadcrumbs"> <?php if ($breadcrumb): print $breadcrumb; endif;?> </div>
           <?php endif; ?>
-        </div>
 
-        <div id="copyright">
+          <?php print render($title_suffix); ?>
 
-          <div class="copyright">
-            <?php print t('Copyright'); ?> &copy; <?php echo date("Y"); ?>, <?php print $site_name; ?>
-          </div>
+          <?php if (!empty($tabs['#primary'])): ?>
+            <div class="tabs-wrapper"><?php print render($tabs); ?></div>
+          <?php endif; ?>
 
-          <div class="credits">
-            <?php print t('Designed by'); ?>  <a href="http://www.zymphonies.com">Zymphonies</a>
-          </div>
+          <?php print render($page['help']); ?>
 
-        </div>
+          <?php if ($action_links): ?>
+            <ul class="action-links"><?php print render($action_links); ?></ul>
+          <?php endif; ?>
+
+
+          <?php print render($page['content']); ?>
+        </section>
 
       </div>
-
-      <!-- End Footer -->
 
     </div>
+    <?php } ?>
+    
+
+    <!-- Second Sidebar -->
+
+    <?php if ($page['sidebar_second']): ?>
+      <aside id="sidebar-second" role="complementary">
+        <?php print render($page['sidebar_second']); ?>
+      </aside>
+    <?php endif; ?>
+
+    <!-- End Second Sidebar -->
+
+  </div>
+
+  <!-- Footer -->
+
+  <div id="footer">
+
+    <div class="contactwrap">
+
+      <div class="leftwrap">
+        <?php print render($page['contactform']); ?>
+      </div>
+
+      <div class="rightwrap">
+
+        <?php print render($page['contactaddress']); ?>
+
+      </div>
+
+    </div>
+
+    <div class="social-media-wrap">
+      <?php if (theme_get_setting('social_links', 'appco_zymphonies_theme')): ?>
+        <span class="social-icons">
+          <ul>
+            <li><a class="rss" href="<?php print $front_page; ?>rss.xml"><i class="fa fa-rss"></i></a></li>
+            <li><a class="fb" href="<?php echo theme_get_setting('facebook_profile_url', 'appco_zymphonies_theme'); ?>" target="_blank" rel="me"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="twitter" href="<?php echo theme_get_setting('twitter_profile_url', 'appco_zymphonies_theme'); ?>" target="_blank" rel="me"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="gplus" href="<?php echo theme_get_setting('gplus_profile_url', 'appco_zymphonies_theme'); ?>" target="_blank" rel="me"><i class="fa fa-google-plus"></i></a></li>
+            <li><a class="linkedin" href="<?php echo theme_get_setting('linkedin_profile_url', 'appco_zymphonies_theme'); ?>" target="_blank" rel="me"><i class="fa fa-linkedin"></i></a></li>
+            <li><a class="pinterest" href="<?php echo theme_get_setting('pinterest_profile_url', 'appco_zymphonies_theme'); ?>" target="_blank" rel="me"><i class="fa fa-pinterest"></i></a></li>
+            <li><a class="youtube" href="<?php echo theme_get_setting('youtube_profile_url', 'appco_zymphonies_theme'); ?>" target="_blank" rel="me"><i class="fa fa-youtube"></i></a></li>
+          </ul>
+        </span>
+      <?php endif; ?>
+    </div>
+
+    <div id="copyright">
+
+      <div class="copyright">
+        <?php print t('Copyright'); ?> &copy; <?php echo date("Y"); ?>, <?php print $site_name; ?>
+      </div>
+
+      <div class="credits">
+        <?php print t('Designed by'); ?>  <a href="http://www.zymphonies.com">Zymphonies</a>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- End Footer -->
+
+</div>
