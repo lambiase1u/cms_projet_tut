@@ -1,13 +1,15 @@
 name = Appco Zymphonies Theme
-description = Appco Zymphonies Theme<br/>Developed by <a href="http://www.zymphonies.com">Zymphonies</a> & Designed by <a href="http://www.freebiezz.com">FreeBiezz</a>.<br/>Contact us for Drupal Design & Development <a href="mailto:info@zymphonies.com">info@zymphonies.com</a> 
+description = Appco Zymphonies Theme<br/>Developed by <a href="http://www.zymphonies.com">Zymphonies</a> & Designed by <a href="http://www.freebiezz.com">FreeBiezz</a>.<br/>Contact us for Drupal Design & Development <a href="mailto:info@zymphonies.com">info@zymphonies.com</a>
 core = 7.x
 
 engine = phptemplate
 
 stylesheets[all][] = css/font-awesome.css
+stylesheets[all][] = css/bootstrap.css
 stylesheets[all][] = css/style.css
 stylesheets[all][] = css/media.css
 
+scripts[] = js/bootstrap.js
 scripts[] = js/custom.js
 
 regions[user_menu]  	= User menu
@@ -45,4 +47,3 @@ version = "7.x-1.0"
 core = "7.x"
 project = "appco_zymphonies_theme"
 datestamp = "1426530790"
-
