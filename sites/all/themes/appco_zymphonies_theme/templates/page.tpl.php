@@ -126,8 +126,8 @@
     <div class="content-sidebar-wrap">
 
       <!-- First Sidebar -->
-
-      <?php if ($page['sidebar_first']): ?>
+  
+      <?php if ($page['sidebar_first'] && !drupal_is_front_page()): ?>
         <aside id="sidebar-first" role="complementary">
           <?php print render($page['sidebar_first']); ?>
         </aside>
